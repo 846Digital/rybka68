@@ -1,0 +1,22 @@
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.8125rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.25rem; --text-xl: 1.5625rem; --text-2xl: 1.953rem; --text-3xl: 2.441rem;
+  --text-display-s: clamp(2.25rem, 4vw + 0.5rem, 3.75rem); --text-display: clamp(2.75rem, 5vw + 1rem, 5.25rem);
+  --text-section: clamp(2rem, 2.5vw + 1rem, 3.5rem); --text-title: clamp(1.25rem, 0.75vw + 0.875rem, 1.625rem); --text-lead: clamp(1.125rem, 0.35vw + 1rem, 1.375rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(80% 0.11 27); --color-success: oklch(50% 0.12 150);
+  --container: 1600px; --gutter: 48px; --gap-columns: 32px; --section-gap-s: 96px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: oklch(24% 0.009 200); --color-paper-2: oklch(28% 0.009 200); --color-paper-3: oklch(33% 0.009 200);
+  --color-ink: oklch(93% 0.009 145); --color-ink-2: oklch(79% 0.012 145); --color-muted: oklch(72% 0.009 145);
+  --color-rule: oklch(44% 0.009 200);
+  --color-accent: oklch(75% 0.10 35); --color-accent-ink: oklch(21% 0.015 35); --color-focus: oklch(82% 0.12 35);
+  --font-display: "Russo One", sans-serif; --font-body: "Golos Text", sans-serif; --font-outlier: var(--font-body);
+  --radius-card: 0px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: none;
+  --tracking-display: -0.02em;
+  --header-height: 88px; --radius-input: 2px; --color-rule-strong: oklch(58% 0.009 200); --color-shadow: oklch(12% 0.01 200 / .4); --color-accent-hover: oklch(81% 0.09 35); --color-field: oklch(79% 0.07 35); --color-field-ink: oklch(23% 0.02 35);
+  --text-store-heading: clamp(2.75rem, 5.2vw, 5.25rem); --text-product-name: clamp(2rem, 2.5vw, 2.75rem); --text-store-dialog: 2rem; --text-phone: clamp(2rem, 8.5vw, 8.5rem); --color-image-plate: oklch(20% 0.01 200 / .94); --color-overlay: oklch(10% 0.01 200 / .92); --color-footer-button-hover: oklch(31% 0.02 35); --color-footer-rule: oklch(37% 0.04 35);
+}
+
+@media(max-width:600px){:root{--header-height:76px}}
